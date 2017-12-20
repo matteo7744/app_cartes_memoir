@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flashcard</title>
+</head>
+<body>
+
+
+<p>
+        <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jolly_Rosso.jpg/170px-Jolly_Rosso.jpg" 
+             id="imgClickAndChange" onclick="changeImage()"  />
+</p>
+<script language="javascript">
+    function changeImage() {
+
+        if (document.getElementById("imgClickAndChange").src == "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jolly_Rosso.jpg/170px-Jolly_Rosso.jpg") 
+        {
+            document.getElementById("imgClickAndChange").src = "https://i.pinimg.com/736x/86/0f/85/860f85a3d92be8fe5735be34ab72bda2--joker-and-harley-the-joker.jpg";
+        }
+        else 
+        {
+            document.getElementById("imgClickAndChange").src = "https://i.pinimg.com/736x/80/4a/b5/804ab5b5d0e2642bdbd57bf3ce3422fd--joker-game-jokers.jpg";
+        }
+    }
+</script>
+</body>
+</html>
